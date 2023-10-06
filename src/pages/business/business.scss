@@ -1,0 +1,67 @@
+.business {
+    width: 100%;
+    height: 100vh;
+    background-color: #F6F6F6;
+
+    .innerGrid {
+        margin-top: 20px;
+        width: 85%;
+        height: 85vh;
+        background-color: white;
+        border-radius: 10px 10px 0px 0px;
+        border-top: 5px solid #F52938;
+
+        .contentCon {
+            padding-top: 13vh;
+
+            section {
+                font-size: 40px;
+                font-family: Nunito;
+                width: 60%;
+                margin: auto;
+                line-height: 60px;
+                color: #FC6752;
+                padding-bottom: 30px;
+            }
+
+            .btcon {
+                width: 60%;
+                margin: auto;
+                margin-top: 20px;
+
+                .bt1 {
+                    text-transform: none;
+                    background: linear-gradient(223deg, #F52938 0%, #FC6752 100%);
+                    width: 220px;
+                    font-size: 13px;
+                    font-weight: bold;
+                    border-radius: 10px;
+                    box-shadow: none;
+                }
+
+                .bt2 {
+                    box-shadow: none;
+                    text-transform: none;
+                    font-weight: bold;
+                    width: 220px;
+                    font-size: 13px;
+                    background-color: #E4EAEF;
+                    color: #555F68;
+                    border-radius: 10px;
+                }
+            }
+
+        }
+
+        .imageCon {
+            height: calc(85vh - 5px);
+            display: grid;
+            place-content: center;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

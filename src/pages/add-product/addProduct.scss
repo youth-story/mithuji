@@ -1,0 +1,65 @@
+.addProduct {
+    width: 100%;
+    height: 100vh;
+
+    .innerAdd {
+        width: 100%;
+        height: calc(100vh - 50px);
+        display: grid;
+        grid-template-columns: 230px 1fr;
+
+        .right {
+            background-color: #f6f6f6;
+            padding: 20px;
+            padding-bottom: 0px;
+
+            .addContainer {
+                width: 100%;
+                height: 100%;
+                background-color: white;
+                border-radius: 10px 10px 0px 0px;
+
+
+                .progressBox {
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+                    div {
+                        text-align: center;
+                        line-height: 80px;
+
+                        .bt {
+                            text-transform: none;
+                            color: #B1B5B9;
+                            border: none;
+
+                            input {
+                                width: 18px;
+                                height: 18px;
+                                padding: 0px;
+                                border-radius: 50% !important;
+                                position: relative;
+                                top: -2px;
+                                margin-right: 10px;
+
+                                &:checked {
+                                    background-color: #FC6752;
+                                    border-color: #FC6752;
+                                }
+                            }
+                        }
+
+                        #activeBt {
+                            border: 0.8px solid #FC6752;
+                        }
+                    }
+
+                }
+
+                
+
+            }
+        }
+    }
+}

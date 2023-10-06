@@ -1,0 +1,182 @@
+.signup {
+    width: 100%;
+    height: 100vh;
+
+    .inner {
+        width: 100%;
+        height: calc(100vh - 50px);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .innerDiv1 {
+            background-image: url("../../assets/login.png");
+            background-position: center;
+            background-size: cover;
+            color: white;
+
+            section {
+                padding-top: 15vh;
+                font-family: Nunito;
+                font-size: 30px;
+                width: 70%;
+                margin: auto;
+                word-spacing: 10px;
+                letter-spacing: 1px;
+
+                span {
+                    color: #F52938;
+                }
+            }
+        }
+
+        .innerDiv2 {
+            background-color: white;
+            border-radius: 20px 0px 0px 20px;
+            position: relative;
+            left: -20px;
+            width: calc(100% + 20px);
+            padding-top: 15vh;
+
+            .logHead {
+                text-align: center;
+                font-size: 25px;
+                font-weight: 600;
+                padding-bottom: 30px;
+            }
+
+            .language-selector {
+                position: absolute;
+                background: transparent;
+                border: none;
+                cursor: pointer;
+                top: 20px;
+                right: 30px;
+                // color: #fff;
+                outline: none;
+                option {
+                  cursor: pointer;
+                  outline: none;
+                  border: none;
+                  background: transparent;
+                  box-shadow: none;
+                  color: black;
+                  opacity: 0.7;
+                }
+            }
+        
+
+            form {
+                width: 400px;
+                margin: auto;
+
+                .form-group {
+                    margin-top: 10px;
+                    position: relative;
+
+                    input {
+                        height: 45px;
+                        font-size: 14px;
+                        display: block;
+                        padding-left: 20px;
+                        font-family: inherit;
+                        width: 100%;
+                        border: 0;
+                        border: 2px solid hsl(230, 20%, 25%);
+                        border-radius: 3px;
+                        outline: 0;
+                        color: black;
+                        padding: 18px 12px;
+                        background: transparent;
+                        transition: border-color 0.3s;
+
+                        &::placeholder {
+                            color: transparent;
+                        }
+
+                        &:placeholder-shown~label {
+                            font-size: 1rem;
+                            cursor: text;
+                            transform: translatey(19px);
+                            padding: 0px 0px;
+                            color: hsl(230, 15%, 75%);
+                        }
+
+                        &:hover {
+                            border-color: red;
+                        }
+                    }
+
+                    label {
+                        position: absolute;
+                        left: 12px;
+                        display: block;
+                        // background-color: white;
+                        transition: 0.3s;
+                        font-size: 0.75rem;
+                        padding: 0px 2px;
+                        color: hsl(230, 15%, 75%);
+                        background: white;
+                        top: -9px;
+                        // z-index: 1;
+                    }
+
+                    .input:focus {
+                        border-color: red;
+
+                        ~label {
+                            top: 0px;
+                            z-index: 1;
+                            background-color: white;
+                            position: absolute;
+                            transform: translatey(-7px);
+                            color: black;
+                            padding: 0 0 2px 2px;
+                            margin: 0 0 0 8px;
+                            font-size: 0.75rem;
+                        }
+                    }
+
+                    span {
+                        position: absolute;
+                        color: gray;
+                        cursor: pointer;
+                        right: 15px;
+                        font-size: 20px;
+                        top: 10px;
+                        opacity: 0.5;
+                        cursor: pointer;
+
+                    }
+
+                    .bt1 {
+                        width: 100%;
+                        height: 45px;
+                        text-transform: none;
+                        font-weight: bold;
+                        margin-top: 25px;
+                        background: linear-gradient(223deg, #F52938 0%, #FC6752 100%);
+                    }
+
+                }
+
+                .already {
+                    text-align: center;
+                    margin-top: 20px;
+                    font-size: 14px;
+                    color: #B1B5B9;
+
+                    span {
+                        color: #FC6752;
+                        font-weight: 500;
+                        cursor: pointer;
+
+                        &:hover {
+                            color: #F52938;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

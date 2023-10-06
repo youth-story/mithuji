@@ -1,0 +1,48 @@
+.subCategoryContainer {
+    width: 100%;
+    height: calc(100% - 80px);
+    padding: 30px;
+    padding-top: 10px;
+
+
+    .search {
+        display: grid;
+        grid-template-columns: 1fr 120px;
+
+        input {
+            border-radius: 5px 0px 0px 5px;
+            border: 1px solid #B1B5B9;
+            border-right: none;
+            font-size: 14px;
+            padding-left: 20px;
+            outline: none;
+
+            &::placeholder {
+                color: #B1B5B9;
+            }
+
+            height: 35px;
+        }
+
+        .searchBt {
+            text-transform: none;
+            box-shadow: none;
+            border-radius: 0px 5px 5px 0px;
+            height: 35px;
+            background: linear-gradient(223deg, #F52938 0%, #FC6752 100%);
+        }
+    }
+
+    .listCon {
+        width: 100%;
+        height: calc(100% - 30px);
+        margin-top: 10px;
+        padding-left: 20px;
+        padding-top: 10px;
+
+        .item {
+            line-height: 50px;
+            color: #474747;
+        }
+    }
+}

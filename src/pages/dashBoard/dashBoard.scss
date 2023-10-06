@@ -1,0 +1,44 @@
+.dashBoard {
+    width: 100%;
+    height: 100vh;
+
+    .inner {
+        width: 100%;
+        height: calc(100vh - 50px);
+        display: grid;
+        grid-template-columns: 230px 1fr;
+
+        .right {
+            padding: 20px;
+            background-color: #f6f6f6;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-gap: 10px;
+
+            .top {
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 10px;
+
+                .topLeft {
+                    width: 100%;
+                    background-color: white;
+                    border-radius: 10px;
+                }
+
+                .topRight {
+                    width: 100%;
+                    background-color: white;
+                    border-radius: 10px;
+                }
+            }
+
+            .bottom {
+                width: 100%;
+                background-color: white;
+                border-radius: 10px;
+            }
+        }
+    }
+}

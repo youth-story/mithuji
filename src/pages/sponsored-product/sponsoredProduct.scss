@@ -1,0 +1,351 @@
+.rs-picker-menu {
+    position: fixed !important;
+
+    // .rs-picker-select-menu-item:hover{
+    //     background-color: #c1c8ce;
+    //     color: #F52938;
+    // }
+}
+
+.sponsored-modal{
+    padding: 0;
+    border-radius: 10px;
+    height: 450px;
+
+    .box{
+        padding: 5% 10%;
+        .select-picker{
+            width: 100%;
+            margin-bottom: 5%;
+            
+            .rs-btn{
+                padding: 11px;
+                height: 50px;
+                border: 2px solid #B1B5B9;
+            }
+
+            .rs-icon{
+                color: #323E49;
+                margin-top: 5px;
+            }
+
+            .rs-stack-item span{
+                color: #323E49;
+                font-size: 15px;
+            }
+        }
+    }
+    
+    .react-datepicker__header {
+        background-color: transparent;
+        border-bottom: none;
+    }
+
+    .react-datepicker__navigation{
+        margin-top: 0;
+    }
+
+    .react-datepicker__day--keyboard-selected, .react-datepicker__day--selected{
+        background: linear-gradient(223deg, #F52938 0%, #FC6752 100%);
+        color: #323E49;
+    }
+
+    .react-datepicker__day:hover{
+        background: #f5293767;
+        color: white;
+    }
+
+    .react-datepicker__day-names .react-datepicker__day-name.sunday {
+        background-color: red;
+      }
+    // .removeProductModal{
+        h3{
+            margin-top: 10%;
+            text-align: center;
+            font-weight: 400;
+        }
+        h5{
+            text-align: center;
+            font-weight: 400;
+            margin-top: 5%;
+        }
+        
+        .heading-model{
+            margin-bottom: 20px;
+        border-radius: 10px 10px 0 0;
+        height: 70px;
+        font-size: 20px;
+        padding-top: 3.5%;
+        padding-left: 6%;
+        text-align: start;
+        background: linear-gradient(223deg, #F52938 0%, #FC6752 100%);
+        color: #ffffff;
+        font-weight: 500;
+    }
+
+    .start-end{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .date-tag{
+        margin-bottom: 10px;
+    }
+
+    button{
+        margin-top: 2%;
+    }
+
+    .cancel{
+                        margin-left: 10%;
+                        color: #555F68;
+                        font-size: 15px;
+                        font-weight: 500;
+                        padding: 5px 45px;
+                        height: 50px;
+                        text-transform: none;
+                        letter-spacing: 1px;
+                        background-color: #E4EAEF;
+                        border-color: transparent;
+                        border-radius: 5px;
+                        
+                        &:hover{
+                            background-color: #c0c7cc;
+                            color: #242121;
+                        }
+    }
+    .confirm{
+        margin-right: 10%;
+        float: right;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+                        padding: 5px 45px;
+                        height: 50px;
+                        text-transform: none;
+                        letter-spacing: 1px;
+                        background-color: #F52938;
+                        border-color: transparent;
+                        border-radius: 5px;
+
+                        &:hover{
+                            background-color: #c6313b;
+                        }
+    }
+
+
+    .date-picker{
+        display: flex;       
+    justify-content: space-around;
+    }
+
+    // .react-datepicker__navigation--next{
+    //     display: none !important;
+    // }
+    
+    // .react-datepicker__month-container {
+    //     display: flex;
+    //     flex-direction: column;
+    //     width: 100%;
+    //     height: 200px;
+    //   }
+      
+    //   .react-datepicker__weekdays {
+    //     display: flex;
+    //     flex-direction: row;
+    //     justify-content: space-around;
+    //     margin-bottom: 10px;
+    //   }
+      
+    //   .react-datepicker__weekdays li {
+    //     font-size: 14px;
+    //     color: #666;
+    //   }
+      
+    //   .react-datepicker__days {
+    //     display: flex;
+    //     flex-direction: row;
+    //     justify-content: space-around;
+    //     height: 100px;
+    //   }
+      
+    //   .react-datepicker__day {
+    //     width: 14%;
+    //     text-align: center;
+    //     font-size: 16px;
+    //     color: #777;
+    //   }
+      
+    //   .react-datepicker__day.active {
+    //     background-color: #1abc9c;
+    //     color: white;
+    //   }
+      
+}
+
+
+.header-box{
+    padding: 2% 3%;
+    .heading{
+        font-size: 28px;
+    }
+    input {
+        margin-top: 2%;
+        border-radius: 3px;
+        border: 1px solid #B1B5B9;
+        font-size: 14px;
+        padding-left: 20px;
+        width: 300px;
+        outline: none;
+
+        &::placeholder {
+            color: #B1B5B9;
+        }
+
+        height: 35px;
+    }
+
+    .searchIcon {
+        width: 22px;
+        height: 22px;
+        position: relative;
+        right: 2.5%;
+    margin-bottom: 5px;
+    color: #B1B5B9;
+    }
+
+    .btn{
+        float: right;
+                        color: white;
+                        font-size: 15px;
+                        font-weight: 500;
+                        padding: 5px 40px;
+                        height: 45px;
+                        text-transform: none;
+                        letter-spacing: 1px;
+                        background-color: #F52938;
+                        border-color: transparent;
+                        border-radius: 5px;
+    }
+}
+
+
+.table{
+    height: fit-content;
+    .image-box{
+        text-align: center;
+
+        .product-img{
+            width: 80px;
+            height: 80px;
+        }
+    }
+    
+    .time {
+        // display: flex;
+        width: 20%;
+        align-items: center;
+      
+        .icon {
+            cursor: pointer;
+          margin-top: 20%;
+          position: relative;
+          float: right;
+          background-color: #F6F6F6;
+          font-size: 20px;
+          color: #555F68;
+        }
+
+        .dropdown-content{
+            position: relative;
+            top: 2.7em;
+            left: 2em;
+            display: inherit;
+        
+        }
+        li{
+            list-style: none;
+        }
+      
+        button {
+            display:inline-flex;
+         width: 160px;
+          border: none;
+          outline: none;
+          background-color: white;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);;
+          padding: 5px 10px;
+          font-size: 14px;
+          color: #555F68;
+          text-decoration: none !important;
+          text-align: center;
+        }
+      
+        .date {
+            border-radius: 5px 5px 0 0 ;
+
+            .icon1{
+                margin-right: 5px;
+            }
+        }
+        
+        .remove {
+            border-radius: 0 0 5px 5px ;
+            .icon1{
+                margin-right: 5px;
+            }
+        }
+      }
+    }
+
+.bottom {
+    // margin-top: auto;
+    // text-align: end;
+    display: inline;
+    font-family: monospace;
+    position: absolute;
+    left: 80%;
+    
+    .pagination {
+        display: inline-block;
+        
+        .prev, .next{
+            background-color: #F6F6F6;
+            color: #323E49;
+        }
+
+        .disabled{
+            background-color: #aea5a5;
+            color: #323E49;
+            cursor: not-allowed;
+
+            &:hover{
+            background-color: #aea5a5;
+            }
+        }
+
+        a {
+        color: #000000;
+        float: left;
+        padding: 5px 12px;
+        text-decoration: none;
+            transition: background-color .5s;
+            border: 1px solid #DDD;
+            margin: 0 4px;
+            font-size: 20px;
+
+            &:hover:not(.active) {
+                background-color: #DDD;
+            }
+        }
+        
+        
+    }
+}
+
+.active {
+    background-color: #E4EAEF;
+    color: #323E49;
+    // border: 1px solid #0096FF;
+}
+

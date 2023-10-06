@@ -1,0 +1,296 @@
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F6F6F6;
+
+    .prductsection {
+        margin: auto;
+    border-radius: 10px;
+    position: relative;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+
+        .handheld-printer-container {
+            box-sizing: border-box;
+            flex: 1 0 auto;
+            padding: 39px 49px 48px;
+            background: white;
+            border-radius: 10px;
+            width: 40%;
+          }
+          .handheld-printer-title {
+            box-sizing: border-box;
+            // font: 400 35px Nunito;
+            font-size: 35px;
+            font-weight: 600;
+            // font-family: nunito;
+            color: #323e49;
+          }
+          .handheld-printer-price {
+            box-sizing: border-box;
+            margin-top: 20px;
+            // font: 30px Nunito;
+            font-size: 30px;
+            font-weight: 600;
+            color: #323e49;
+          }
+          .price-label {
+            font-weight: 600;
+            font-size: 30px;
+            // font-family: Nunito;
+          }
+          .justified-text {
+            // box-sizing: border-box;
+            // display: -webkit-box;
+            // max-width: 948px;
+            margin-top: 20px;
+            // overflow: hidden;
+            font-size: 20px;
+            color: #555f68;
+            text-align: justify;
+
+            .applications{
+                margin-top: 20px;
+            }
+
+            .description{
+                margin-top: 20px;
+            }
+          }        
+}
+
+.images{
+
+    .hierarchical-container {
+        
+      }
+      .image-container1 {
+        border: 1px solid #b1b5b9;
+        width: 420px;
+        height: 400px;
+        margin-left: 100px;
+      }
+      .img-content-3f204135 {
+        content: url("https://s3-alpha-sig.figma.com/img/9a93/bb11/11a05590b4e1f9a4fff4263f746a5295?Expires=1693785600&Signature=oQ1G4XNf7aWhxy-IsC~Hu4Xjn0PFw3dAcM4h9vetbt7MEZA0nFZAPiqUdW20pQFOlTUkkRyOsS~ihbJar1ZA3HqXv7zLuc8eZFiqUfaqTyT8J3--4HwHVxbbwP8qUfd37rBQ85fHf4Zl1apenw63yE0Ai-GA0sxcA5AAWw65REXiuNHeZUV1sqVkDl5U1IqhDKhROX3A-WowV1Z7oQvSRbcC44TlYV4czxQjGYSTDd1cJjK3Z1Wrq0PwP9nN8ZmnX7eItiND5gWoI9zqOhXNGj~wun2nmFYagaL~VGi3PZue30AG05wE131-ynSsyKX9SKY0owE1eAWuOxiVLwia-Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+      }
+      .image-gallery {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 25px;
+        margin-left: 20px;
+      }
+      .container-image-wrapper {
+        box-sizing: border-box;
+        flex: 0 0 auto;
+      }
+      .image-container {
+        box-sizing: border-box;
+        display: block;
+        width: 102px;
+        max-width: initial;
+        height: 100px;
+        border: 1px solid #b1b5b9;
+        object-fit: cover;
+      }
+      .image-container5 {
+        box-sizing: border-box;
+        display: block;
+        width: 101px;
+        max-width: initial;
+        height: 100px;
+        border: 1px solid #b1b5b9;
+        object-fit: cover;
+      }
+
+      
+    .request-for-quotation-button {
+      box-sizing: border-box;
+      float: right;
+      /* width: 416px; */
+      text-align: end;
+      padding: 17px 41px;
+      margin: 0;
+      margin-top: 35px;
+      font-size: 18px;
+      color: white;
+      cursor: pointer;
+      background: linear-gradient(223deg, #F52938 0%, #FC6752 100%);
+      border: none;
+      border-radius: 11px;
+      }
+}
+
+.seller-details {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: 42px 48px 41px 77px;
+  background: white;
+  border-radius: 10px;
+}
+.seller-details-heading {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  font: 800 32px Nunito;
+  color: #323e49;
+}
+.seller-details-container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: 72px;
+  margin-top: 36px;
+}
+.gradient-container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  background: linear-gradient(223deg, #F52938 0%, #FC6752 100%);
+  border-radius: 11px;
+}
+.main-heading {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  font: 700 32px Nunito;
+  color: white;
+}
+.company-info {
+  display: flex;
+  box-sizing: border-box;
+  flex: 0 1 auto;
+  margin-left: 18px;
+}
+.company-info-container {
+  box-sizing: border-box;
+  display: inline-block;
+  padding-right: 15%;
+}
+.company-name {
+  box-sizing: border-box;
+  font: 700 18px Nunito;
+  color: #323e49;
+  text-transform: uppercase;
+}
+.company-logo-container {
+  box-sizing: border-box;
+  margin-top: -47px;
+  display: inline-flex;
+  /* flex: 0 1 auto; */
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg-container5 {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
+  color: red;
+}
+.gradient-text {
+  line-height: 20px !important;
+  box-sizing: border-box;
+  flex: 0 1 auto;
+  margin-left: 9px;
+  font: 800 16px/75.43988037109375% Nunito;
+  background: linear-gradient(223deg, #F52938 0%, #FC6752 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.company-location {
+  box-sizing: border-box;
+  font: 500 16px Nunito;
+  color: #555f68;
+}
+
+.seller-details1 {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  margin-top: 40px;
+}
+.owner-info-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: 84px;
+}
+.container-image-wrapper {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+}
+.proprietor-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.proprietor-container1 {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  padding-bottom: 2.5px;
+}
+.svg-container6 {
+  box-sizing: border-box;
+  display: flex;
+  width: 24px;
+  height: 24px;
+}
+.proprietor-label {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  margin-left: 8.5px;
+  font: 700 18px Nunito;
+  color: #323e49;
+}
+.proprietor-name, .proprietor-address {
+  box-sizing: border-box;
+  margin-top: 7px;
+  font-size: 17px ;
+  font-weight: 600 ;
+  color: #555f68;
+}
+
+.proprietor-address{
+  padding-right: 25%
+}
+.address-container {
+  box-sizing: border-box;
+  flex: 0 1 auto;
+}
+.chat-button {
+  box-sizing: border-box;
+  display: block;
+  padding: 10px 30px;
+  margin-top: 25px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(223deg, #F52938 0%, #FC6752 100%);
+  border: none;
+  border-radius: 11px;
+}
+
+
+}
+
+

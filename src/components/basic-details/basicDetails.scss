@@ -1,0 +1,72 @@
+.basicDetails {
+    width: 100%;
+    height: calc(100% - 80px);
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+
+    .basicLeft {
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+
+        .box {
+            width: 85%;
+            height: 350px;
+            background-color: #F5F6FB;
+            border-radius: 10px;
+        }
+
+        .boxScroller {
+            width: 85%;
+            height: 50px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+
+            .imgBox {
+                width: 60px;
+                height: 60px;
+                display: inline-block;
+                background-color: #F5F6FB;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .basicRight {
+        .form-group {
+            margin-bottom: 20px;
+
+            input {
+                width: 85%;
+                height: 50px;
+                padding-left: 20px;
+
+                &::placeholder {
+                    color: #555F68;
+                }
+            }
+
+            textarea {
+                padding: 20px;
+                padding-top: 15px;
+                width: 85%;
+                height: 200px;
+
+                &::placeholder {
+                    color: #555F68;
+                }
+            }
+
+            .bt {
+                width: 85%;
+                height: 50px;
+                background: linear-gradient(223deg, #F52938 0%, #FC6752 100%);
+                text-transform: none;
+                letter-spacing: 1px;
+            }
+        }
+    }
+}

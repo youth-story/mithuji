@@ -1,0 +1,6 @@
+apiKey: "AIzaSyAzIvyHjjRzCRRMAjS7xEKtxkNiZldc1Qk",
+      authDomain: "mithuji-648ac.firebaseapp.com",
+      projectId: "mithuji-648ac",
+      storageBucket: "mithuji-648ac.appspot.com",
+      messagingSenderId: "599150565445",
+      appId: "1:599150565445:web:3fa312c44ae4c2727eeb2c",

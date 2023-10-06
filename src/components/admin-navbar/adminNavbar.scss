@@ -1,0 +1,108 @@
+.sticky {
+    position: fixed !important;
+    top: 0;
+    top: 0px;
+  transition: top 0.3s ease-in-out;
+  }
+
+.navBar {
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 10px #c6c6c6;
+    position: relative;
+    height: 50px;
+    z-index: 5;
+
+    .logo {
+        display: inline;
+        line-height: 50px;
+        color: #F52938;
+        font-size: 25px;
+        font-family: Nunito;
+        padding-left: 20px;
+        cursor: pointer;
+    }
+    
+    .location {
+        display: inline-block;
+        border: 2px solid #B1B5B9;
+        padding-left: 5px;
+        margin-left: 60px;
+        padding-top: 8px;
+        height: 40px;
+        /* top: 0; */
+        
+        .search{
+            // padding-top: 8px;
+            border: none;
+            width: 80px;
+            
+            &:focus{
+                outline: none;
+            }
+        }
+        .icon{
+            border: transparent;
+            // position: relative;
+            width: 20px;
+            // top: 0;
+            background-color: white;
+        }
+
+        .dropdown{
+            position: fixed;
+            background: #fff;
+            margin-top: 5px;
+            margin-left: 15px;
+            width: 100px;
+
+            option{
+                border: 2px solid #B1B5B9;
+                border-bottom: none;
+            }
+            
+            option:last-child{
+                // border: 2px solid #000;
+                border-bottom: 2px solid #B1B5B9;
+            }
+        }
+    }
+
+    .d1,
+    .d2,
+    .d3 {
+        line-height: 50px;
+        position: absolute;
+        top:0px;
+        font-size: 12px;
+        color: #555F68;
+        cursor: pointer;
+        padding-top: 5px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        line-height: 17px;
+
+        .icon{
+            font-size: 17px;
+            position: relative;
+            color: #FC6752;
+        }
+    }
+    
+    .d1 {
+        right: 180px;
+    }
+    
+    .d2 {
+        right: 100px;
+    }
+    
+    .d3 {
+        right: 50px;
+
+        .text{
+            display: inline;
+        }
+    }
+}
